@@ -1,5 +1,7 @@
 package com.perscholas.core;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -41,5 +43,31 @@ public class Main {
         x = 5;
         if (x < 10 || x > 20) System.out.println("Out of range");
         else if (x >= 10 && x <= 20) System.out.println("In range");
+
+//        Write a program that uses if-else-if statements to print out grades A, B, C, D, F
+//        according to the following criteria:
+
+        A: 90-100
+        B: 80-89
+        C: 70-79
+        D: 60-69
+        F: <60
+//
+//        Use the Scanner class to accept a number score from the user to determine the letter grade.
+//        Print out “Score out of range.” if the score is less than 0 or greater than 100.
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please enter your score: ");
+        int number = input.nextInt();
+
+        char result;
+
+        if (number > 89 && number < 100) result = 'A';
+        else if (number > 79 && number < 90) result = 'B';
+        else if (number > 69 && number < 80) result = 'C';
+        else if (number > 59 && number < 70) result = 'D';
+        else result = 'F';
+
+        System.out.println("Your grade is " + result);
     }
 }
