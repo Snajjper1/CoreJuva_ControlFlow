@@ -8,7 +8,7 @@ public class Main {
 //        Change x to equal 15 and notice the result (console should not display anything).
 
         int x;
-        x = 15;
+        x = 7;
         if (x < 10) System.out.println("Less then 10");
     }
 }
