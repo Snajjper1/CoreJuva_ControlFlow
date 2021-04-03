@@ -69,5 +69,39 @@ public class Main {
         else result = 'F';
 
         System.out.println("Your grade is " + result);
+
+//        Write a program that accepts an integer between 1 and 7 from the user. Use a switch statement
+//        to print out the corresponding weekday. Print “Out of range” if the number is less than 1 or
+//        greater than 7. Don’t forget to include “break” statements in each of your cases.
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Number of the week day");
+        byte day = input.nextByte();
+        String outDay = "";
+
+        switch (day) {
+            case 1:
+                outDay = "Monday";
+                break;
+            case 2:
+                outDay = "Tuesday";
+                break;
+            case 3:
+                outDay = "Wednesday";
+                break;
+            case 4:
+                outDay = "Thursday";
+                break;
+            case 5:
+                outDay = "Friday";
+                break;
+            case 6:
+                outDay = "Saturday";
+                break;
+            case 7:
+                outDay = "Sunday";
+        }
+
+        System.out.println(outDay);
     }
 }
