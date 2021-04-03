@@ -22,7 +22,7 @@ public class Main {
         if (x < 10) System.out.println("Less then 10");
         else System.out.println("Greater than 10");
 
-//        Write a program that declares 1 integer variable x, and then assigns 15 to it.
+//        Write a program that declares 1 integer variable x, and
 //        Write an “if-else-if” statement that prints out “Less than 10” if x is less than 10,
 //        “Between 10 and 20” if x is greater than 10 but less than 20, and “Greater than or equal
 //        to 20” if x is greater than or equal to 20. Change x to 50 and notice the result.
@@ -47,11 +47,11 @@ public class Main {
 //        Write a program that uses if-else-if statements to print out grades A, B, C, D, F
 //        according to the following criteria:
 
-        A: 90-100
-        B: 80-89
-        C: 70-79
-        D: 60-69
-        F: <60
+
+//        B: 80-89
+//        C: 70-79
+//        D: 60-69
+//        F: <60
 //
 //        Use the Scanner class to accept a number score from the user to determine the letter grade.
 //        Print out “Score out of range.” if the score is less than 0 or greater than 100.
