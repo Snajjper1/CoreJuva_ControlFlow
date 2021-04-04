@@ -63,9 +63,9 @@ public class Main {
         char result;
 
         if (number > 89 && number < 100) result = 'A';
-        else if (number > 79 && number < 90) result = 'B';
-        else if (number > 69 && number < 80) result = 'C';
-        else if (number > 59 && number < 70) result = 'D';
+        else if (number > 79) result = 'B';
+        else if (number > 69) result = 'C';
+        else if (number > 59) result = 'D';
         else result = 'F';
 
         System.out.println("Your grade is " + result);
